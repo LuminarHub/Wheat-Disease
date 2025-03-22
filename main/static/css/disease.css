@@ -1,0 +1,58 @@
+#container {
+    width: 90%;
+    max-width: 1000px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #4a90e2;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.file-input {
+    margin-bottom: 15px;
+}
+
+.preview-container {
+    margin-top: 20px;
+}
+
+/* Image preview styles */
+#imagePreview {
+    display: none; /* Initially hidden */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 2px solid #4a90e2;
+}
+
+.btn-submit {
+    background-color: #4a90e2;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-submit:hover {
+    background-color: #357ab8;
+}
+.response {
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+}
